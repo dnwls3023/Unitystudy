@@ -1,0 +1,25 @@
+유니티 UI 
+Button : 클릭 이벤트를 가지고 있는 반응형 UI.
+Inspector -> Image -> Image Type -> Sliced 기능으로
+자유자재 크기로 이미지 구현 가능.
+
+Button (Script) 에서 Interactable 은 마우스 커서를 올렸을 때 반응을
+할지 안할지를 나타내는 것이다.
+
+Button (Script) 에서 Transition 은 반응을 어떻게 할지를 표시한다.
+Transition 옵션에서 타입이 세 가지가 있는데
+(Color Tint, Sprite Swap, Animation) Animation은 어려우므로 패스.
+
+우선 Color Tint는 색깔을 바꾸겠다는 것을 의미한다.
+
+Nomal Color은 말 그대로 일반적 색깔
+Highlighted Color은 커서를 댔을 때의 색깔
+Pressed Color은 눌렀을 때의 색깔이다.
+Disabled Color은 비활성화가 되었을 때의 색깔 (비활성화란 Interactable을 버튼이 꺼져 있을 때)
+
+*** 중요 OnClick() : 버튼 클릭시 호출되는 이벤트 함수.
+
+앵커를 맞추지 않으면 해상도에 따라서 계속 화면 UI 위치가 맞지 않게 된다.
+
+앵커 맞추기(기준점 맞추기) : Rect Transform 에서 사각형같은게 있는데 그 버튼을 누른뒤 
+shift + alt + 클릭을 하게 되면 맞춰지게 된다.
