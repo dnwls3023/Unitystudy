@@ -23,3 +23,7 @@ Disabled Color은 비활성화가 되었을 때의 색깔 (비활성화란 Inter
 
 앵커 맞추기(기준점 맞추기) : Rect Transform 에서 사각형같은게 있는데 그 버튼을 누른뒤 
 shift + alt + 클릭을 하게 되면 맞춰지게 된다.
+
+2d 만들 때
+pixel per unit : 16, compression : none, filter mode : Point로 설정
+project settings -> physics 2d : 0으로 해야 뜨는것처럼 보이지 않음
